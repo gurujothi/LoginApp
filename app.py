@@ -1,7 +1,7 @@
 from flask import Flask, render_template, flash, request
 from wtforms import Form, StringField, PasswordField, validators
 
-DEBUG = False
+DEBUG = True 
 app = Flask(__name__)
 app.config.from_object(__name__)
 app.config['SECRET_KEY'] = '123456'
