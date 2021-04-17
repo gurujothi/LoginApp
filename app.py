@@ -7,7 +7,7 @@ app.config.from_object(__name__)
 app.config['SECRET_KEY'] = '123456'
 
 fixed_user = 'Gurumoorthy'
-fixed_password = '2020MT12370'
+fixed_password = 'password'
 
 class BITSForm(Form):
     username = StringField('Username:', validators=[
